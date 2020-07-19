@@ -1,6 +1,12 @@
 # Tab labeling test-app
 
-An app that lets you upload an image, tag it, and take notes.
+A test-app that lets you upload an image, tag it and take notes.
+
+- Drag and drop to upload images
+- Click on image to put a tag
+- Enter a note for each tag
+- List of notes
+- Highlighting the selected tag and note
 
 ## Installation
 Fork and clone the project:
