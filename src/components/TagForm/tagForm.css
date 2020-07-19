@@ -1,0 +1,66 @@
+.tag-form {
+  width: 25%;
+  min-width: 300px;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 3px;
+}
+
+.tag-form__title {
+  margin-bottom: 0.5rem;
+}
+
+.tag-form__text-area {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 36px;
+  max-height: 100px;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem;
+}
+
+.tag-form__buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.tag-form__ok,
+.tag-form__cancel {
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  margin-left: 0.5rem;
+  font-weight: 700;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.tag-form__ok,
+.tag-form__ok:disabled:hover {
+  border: 1px solid #47d36a;
+  background: #47d36a;
+  color: #fff;
+}
+
+.tag-form__ok:disabled {
+  cursor: default;
+  opacity: 0.4;
+}
+
+.tag-form__ok:hover {
+  background: transparent;
+  color: #47d36a;
+}
+
+.tag-form__cancel {
+  border: 1px solid #a1a1a1;
+  background: #a1a1a1;
+  color: #fff;
+}
+
+.tag-form__cancel:hover {
+  background: transparent;
+  color: #a1a1a1;
+}

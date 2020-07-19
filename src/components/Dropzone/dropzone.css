@@ -1,0 +1,22 @@
+.dropzone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 450px;
+  background: #f7f7f7;
+  border: 2px dashed #ccc;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #ccc;
+  transition: 0.3s;
+  outline: none;
+}
+
+.reject {
+  border-color: #f56464;
+}
+
+.accept {
+  border-color: #47d36a;
+}
