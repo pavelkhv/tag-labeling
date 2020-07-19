@@ -1,5 +1,6 @@
 import React from "react";
 
+import EditingMenu from "../components/EditingMenu/EditingMenu";
 import ListOfNotes from "../components/ListOfNotes/ListOfNotes";
 import Dropzone from "../components/Dropzone/Dropzone";
 
@@ -26,6 +27,7 @@ function Main({getRootProps, state, dispatch, isDrag, actions}) {
   return (
     <section className="main">
       <aside className="sidebar">
+        <EditingMenu />
         <ListOfNotes tags={tags} selectedTag={selectedTag} />
       </aside>
 

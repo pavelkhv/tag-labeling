@@ -26,8 +26,8 @@ function ListOfNotes({tags, selectedTag}) {
       <h2 className="notes__title">Notes</h2>
 
       <ul className="filter-notes">
-        <li className="filter-notes__item">All</li>
-        <li className="filter-notes__item filter-notes__item_active">Latest</li>
+        <li className="filter-notes__item filter-notes__item_active">All</li>
+        <li className="filter-notes__item">Latest</li>
       </ul>
 
       <ul className="list-notes">{notes}</ul>
